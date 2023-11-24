@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="header">
+        <h1 class="logo-name">TODO APP</h1>
+      </section>
+
+      <section class="content">
+        <div class="text">
+          <input class="input-text" type="text" />
+          <ion-icon
+            class="add-task"
+            name="add-outline"
+            onclick="addTask()"
+          ></ion-icon>
+        </div>
+      </section>
+      <section class="section3">
+        <div class="task-list">
+          <div class="task-list-header">LIST OF TASKS</div>
+          <ul class="task"></ul>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script src="./file.js"></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>
+
+
